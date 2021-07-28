@@ -1,9 +1,16 @@
 function clicked(btn){ 
-    var displayValue = document.querySelector('#input-field').value;
+    let displayValue = document.querySelector('#input-field').value;
     let putter = btn.getAttribute('data-value');
     document.querySelector('#input-field').value = document.querySelector('#input-field').value + putter; 
     console.log(putter);
     console.log(displayValue);
+}
+
+function deleteLast(){
+    let displayValue = document.querySelector('#input-field').value;
+    if(displayValue){
+        document.querySelector('#input-field').value = displayValue.slice(0, -1);
+    }
 }
 
 function getAns(){

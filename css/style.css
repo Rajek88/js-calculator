@@ -86,3 +86,9 @@ body{
     color: white;
     box-shadow:  5px 5px 10px rgb(211, 136, 123), -5px -5px 10px #cee7ff;
 }
+
+.btn-paranthesis{
+    background-color: rgb(34, 88, 90);
+    color: white;
+    box-shadow:  5px 5px 10px rgba(34, 88, 90, 0.4), -5px -5px 10px #cee7ff;
+}
